@@ -8,12 +8,17 @@ One file per idea. **Every idea starts from the people it is for**: which use ca
 serves (home-w42-eu [use cases](https://github.com/mj41/home-w42-eu/blob/main/docs/use-cases.md)), or which new use case it adds. An idea
 moves into the architecture only when it changes the design.
 
+> **Ideas, written with AI agents**, not reviewed by others yet, and not promises.
+>
+> **Want one of them built?** Ask in the [issues](https://github.com/mj41/home-w42-eu-ideas/issues), and ideally [sponsor mj41](https://github.com/sponsors/mj41) on
+> GitHub: mj41 codes for attention food.
+
 | Idea | Kind | Status |
 |---|---|---|
-| [Stack-chan on wheels (TPBot)](ideas/stackchan-on-wheels.md) | device + adapter + app | **POC works** |
+| [Stackchan on wheels (TPBot)](ideas/stackchan-on-wheels.md) | device + adapter + app | **POC works** |
 | [NFC tags and QR codes](ideas/nfc-and-qr-tokens.md) | interface, access | **partly works** (NFC reads, QR pairing) |
 | [An old phone as a device](ideas/old-phone-as-device.md) | light client | idea |
-| [Stack-chan on an old Roomba](ideas/roomba.md) | adapter, mobile base | idea |
+| [Stackchan on an old Roomba](ideas/roomba.md) | adapter, mobile base | idea |
 | [A robotic lawn mower](ideas/lawn-mower.md) | adapter | idea |
 | [Home Assistant's sensor array](ideas/home-assistant.md) | adapter | next (roadmap stage 3) |
 | [Window shutters controller](ideas/window-shutters.md) | device + controller | hardware and software exist; roadmap stage 4 |

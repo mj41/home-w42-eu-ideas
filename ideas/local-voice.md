@@ -4,13 +4,13 @@
 
 ## Idea
 
-Talk to the home through Stack-chan (and old phones) without a cloud. Stack-chan's
+Talk to the home through Stackchan (and old phones) without a cloud. Stackchan's
 upstream AI.AGENT uses a third-party cloud (xiaozhi); this replaces it with speech
 recognition and synthesis on the home node.
 
 ## How it fits
 
-- Stack-chan already streams raw microphone PCM and plays PCM from the node
+- Stackchan already streams raw microphone PCM and plays PCM from the node
   (Embody Mode, LAN). The pet already speaks with Edge voice; this would make it
   local.
 - On the node: speech to text (e.g. `whisper.cpp`), a local model for intent, text to
@@ -26,7 +26,7 @@ recognition and synthesis on the home node.
 
 ## First step
 
-Push-to-talk on Stack-chan (hold the head), `whisper.cpp` on the node, the text as
+Push-to-talk on Stackchan (hold the head), `whisper.cpp` on the node, the text as
 an event in the cockpit's event list.
 
 ## Open questions

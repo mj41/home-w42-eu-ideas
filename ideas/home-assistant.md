@@ -36,7 +36,7 @@ with causes, and AI-written loops with replay.
 
 A Go adapter that registers a handful of entities (a door contact, a temperature
 sensor, a plug) as one device, so they appear in the event hub and can be used by a
-loop: "when the door opens, Stack-chan looks at the door".
+loop: "when the door opens, Stackchan looks at the door".
 
 ## Open questions
 

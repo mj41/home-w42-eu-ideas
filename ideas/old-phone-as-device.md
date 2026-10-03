@@ -9,12 +9,12 @@ microphone, speaker, screen, GPS, accelerometer, light sensor, battery and Wi-Fi
 all in one box that already exists in a drawer.
 
 Uses: a camera at the door or the window, a wall screen for the cockpit, a baby
-monitor, a second head for Stack-chan (a phone on the TPBot as the car's own
+monitor, a second head for Stackchan (a phone on the TPBot as the car's own
 camera), a GPS tracker in the car.
 
 ## How it fits
 
-A light client like Stack-chan ([architecture §3](https://github.com/mj41/home-w42-eu/blob/main/docs/architecture.md#3-light-clients)): it registers `class: phone` with
+A light client like Stackchan ([architecture §3](https://github.com/mj41/home-w42-eu/blob/main/docs/architecture.md#3-light-clients)): it registers `class: phone` with
 the capabilities it really has, and streams media only while the node asks.
 
 Three ways to build it, cheapest first:
@@ -34,7 +34,7 @@ On Linux phones (postmarketOS, Mobian) the Go light client runs directly.
 
 ## Privacy and security
 
-- The phone shows what it streams (a LIVE indicator, like Stack-chan's).
+- The phone shows what it streams (a LIVE indicator, like Stackchan's).
 - Camera and location are separate scopes, never implied.
 - A phone left at home as a camera is a device of the home, not a person's proxy;
   a person's own phone is their proxy ([architecture §8.2](https://github.com/mj41/home-w42-eu/blob/main/docs/architecture.md#82-the-access-model-restricted-by-default)).
@@ -42,7 +42,7 @@ On Linux phones (postmarketOS, Mobian) the Go light client runs directly.
 ## First step
 
 The PWA: a page at `https://<node>/device` that registers the browser as a device
-with camera, GPS and screen, and shows up in the [sbot](https://github.com/mj41/sbot) cockpit next to Stack-chan.
+with camera, GPS and screen, and shows up in the [sbot](https://github.com/mj41/sbot) cockpit next to Stackchan.
 
 ## Open questions
 

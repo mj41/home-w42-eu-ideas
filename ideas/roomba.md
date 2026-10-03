@@ -1,11 +1,11 @@
-# Stack-chan on an old Roomba
+# Stackchan on an old Roomba
 
 **Status:** idea, 2026-10-02.
 
 ## Idea
 
 An old iRobot Roomba becomes a mobile base: a vacuum when that is its job, and a
-platform that carries Stack-chan (or an old phone) around the home as a moving
+platform that carries Stackchan (or an old phone) around the home as a moving
 camera and face. The TPBot car proved the pattern on a small scale.
 
 ## How it fits
@@ -19,7 +19,7 @@ cliff sensors, wheel drops, encoders, battery, charging state).
   some older ones). Commands such as Start, Safe, Full, Drive and Stream are
   documented in the public OI specification.
   - Adapter: an ESP32 (or a micro:bit) on the port, BLE or Wi-Fi to the node or to
-    Stack-chan. The port supplies battery voltage (about 14 V), so the adapter needs
+    Stackchan. The port supplies battery voltage (about 14 V), so the adapter needs
     a step-down regulator.
 - **Newer Wi-Fi models (900, i, j, s series)** have no serial port, but many expose
   a local MQTT interface (used by open-source projects such as `dorita980` and Home
@@ -34,7 +34,7 @@ cliff sensors, wheel drops, encoders, battery, charging state).
 - Same layers as the car: a watchdog in the adapter (stop without a fresh drive
   command), and the node's safety controllers using the Roomba's own bumpers and
   cliff sensors.
-- A Stack-chan riding on top needs a mount and a check of the weight and the
+- A Stackchan riding on top needs a mount and a check of the weight and the
   centre of gravity.
 
 ## First step
@@ -45,6 +45,6 @@ adapter.
 
 ## Open questions
 
-- Does a Roomba with Stack-chan on top still pass under furniture, and does the
+- Does a Roomba with Stackchan on top still pass under furniture, and does the
   camera see anything useful from that height?
 - Vacuuming and carrying the robot at the same time, or one job at a time?

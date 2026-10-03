@@ -1,6 +1,6 @@
 # NFC tags and QR codes as keys, triggers and labels
 
-**Status:** partly working, 2026-10-02. Stack-chan reads NFC tags (UID, type, NDEF
+**Status:** partly working, 2026-10-02. Stackchan reads NFC tags (UID, type, NDEF
 text), the pet uses NFC food cards, and browsers pair with devices by QR.
 
 ## Idea
@@ -40,11 +40,11 @@ Physical tokens are the friendliest interface a home has:
 
 ## First step
 
-Register a kid's NTAG 424 DNA card on the node; a tap on Stack-chan opens the kid's
+Register a kid's NTAG 424 DNA card on the node; a tap on Stackchan opens the kid's
 session in the pet app, with the kid's permissions only, and the robot returns to its
 default face after 10 minutes without touch.
 
 ## Open questions
 
-- Can Stack-chan's ST25R3916 driver (our minimal port) read the SUN URL of an NTAG
+- Can Stackchan's ST25R3916 driver (our minimal port) read the SUN URL of an NTAG
   424 DNA, or does it need more of the ISO 14443-4 stack?

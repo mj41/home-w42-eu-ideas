@@ -7,7 +7,7 @@
 The garden's robotic mower joins the home: its state (mowing, docked, stuck, rain
 pause, battery), its position, and start / stop / dock commands, so loops can use it
 ("no mowing while the kids are in the garden", "mow when everyone is away") and
-Stack-chan can tell you it is stuck.
+Stackchan can tell you it is stuck.
 
 ## How it fits
 

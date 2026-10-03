@@ -4,7 +4,7 @@
 
 ## Idea
 
-IP cameras (and old phones, and Stack-chan) feed the home node, which detects
+IP cameras (and old phones, and Stackchan) feed the home node, which detects
 people, animals and cars and reads number plates, **on the node**, with no cloud.
 Loops then do useful things: "the car of a family member arrived: open the gate",
 "an unknown car parked for an hour: tell me", "a parcel was left at the door".

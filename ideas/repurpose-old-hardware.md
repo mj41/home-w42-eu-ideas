@@ -10,7 +10,7 @@ Before anything is thrown away, check if it can become part of the home:
 |---|---|
 | Laptop | **home node** (its battery is a built-in UPS), or the GPU node for vision and local AI |
 | Tablet | wall screen for the cockpit and "who is home" (the PWA) |
-| Phone | camera, GPS tracker, baby monitor, Stack-chan's second screen ([old phone](old-phone-as-device.md)) |
+| Phone | camera, GPS tracker, baby monitor, Stackchan's second screen ([old phone](old-phone-as-device.md)) |
 | USB webcam | camera on the node itself (V4L2), no network needed |
 | Wi-Fi smart plugs and bulbs | reflash with **Tasmota** or **ESPHome** where the chip allows it, so they talk only to the home (local MQTT or the ESPHome API) |
 | ESP32 / ESP8266 boards, micro:bits | sensors and adapters (as the micro:bit in the TPBot) |
