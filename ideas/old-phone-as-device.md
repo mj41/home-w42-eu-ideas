@@ -14,7 +14,7 @@ camera), a GPS tracker in the car.
 
 ## How it fits
 
-A light client like Stack-chan (architecture §3): it registers `class: phone` with
+A light client like Stack-chan ([architecture §3](https://github.com/mj41/home-w42-eu/blob/main/docs/architecture.md#3-light-clients)): it registers `class: phone` with
 the capabilities it really has, and streams media only while the node asks.
 
 Three ways to build it, cheapest first:
@@ -23,7 +23,7 @@ Three ways to build it, cheapest first:
    `getUserMedia`, motion and light through browser sensor APIs, GPS through
    geolocation. No install. Needs HTTPS on the LAN (browsers give camera and GPS
    only to secure pages), which the node needs anyway (its own certificate, or the
-   self-signed one stackchan-server already makes).
+   self-signed one [stackchan-server](https://github.com/mj41/stackchan-server) already makes).
 2. **Termux plus a Go binary** on old Android: the same light-client code as the
    adapters, with `termux-api` for camera, sensors, GPS and notifications. Runs in
    the background better than a browser tab.
@@ -37,12 +37,12 @@ On Linux phones (postmarketOS, Mobian) the Go light client runs directly.
 - The phone shows what it streams (a LIVE indicator, like Stack-chan's).
 - Camera and location are separate scopes, never implied.
 - A phone left at home as a camera is a device of the home, not a person's proxy;
-  a person's own phone is their proxy (architecture §8.2).
+  a person's own phone is their proxy ([architecture §8.2](https://github.com/mj41/home-w42-eu/blob/main/docs/architecture.md#82-the-access-model-restricted-by-default)).
 
 ## First step
 
 The PWA: a page at `https://<node>/device` that registers the browser as a device
-with camera, GPS and screen, and shows up in the sbot cockpit next to Stack-chan.
+with camera, GPS and screen, and shows up in the [sbot](https://github.com/mj41/sbot) cockpit next to Stack-chan.
 
 ## Open questions
 

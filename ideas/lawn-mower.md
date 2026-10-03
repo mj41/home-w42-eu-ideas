@@ -11,7 +11,7 @@ Stack-chan can tell you it is stuck.
 
 ## How it fits
 
-An adapter (architecture §4), and only for **high-level commands**: start, stop,
+An adapter ([architecture §4](https://github.com/mj41/home-w42-eu/blob/main/docs/architecture.md#4-adapters-and-data-sources)), and only for **high-level commands**: start, stop,
 dock, schedule. Never remote driving of a machine with blades.
 
 - **Open hardware:** the **OpenMower** project replaces the mainboard of some

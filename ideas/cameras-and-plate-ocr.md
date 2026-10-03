@@ -11,7 +11,7 @@ Loops then do useful things: "the car of a family member arrived: open the gate"
 
 ## How it fits
 
-- **Cameras** join through an RTSP adapter (architecture §4). Cloud features of the
+- **Cameras** join through an RTSP adapter ([architecture §4](https://github.com/mj41/home-w42-eu/blob/main/docs/architecture.md#4-adapters-and-data-sources)). Cloud features of the
   cameras are switched off, and the cameras are kept on a network that cannot reach
   the internet.
 - **Detection and OCR** run on a home node with enough compute (an old laptop with a

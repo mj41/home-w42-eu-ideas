@@ -1,7 +1,8 @@
 # Stack-chan on wheels (TPBot)
 
-**Status:** POC works, 2026-10-01/02. Repos: `tpbot-ble`, `stackchan` (`car_ble`),
-`sbot`.
+**Status:** POC works, 2026-10-01/02. Repos: [tpbot-ble](https://github.com/mj41/tpbot-ble),
+[StackChan fork](https://github.com/mj41/StackChan/tree/embody-mj41) (`car_ble`),
+[sbot](https://github.com/mj41/sbot).
 
 ## What works
 

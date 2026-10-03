@@ -11,7 +11,7 @@ to "waiting", lower the heating.
 
 ## How it fits
 
-An adapter (architecture §4) that polls or subscribes to the router:
+An adapter ([architecture §4](https://github.com/mj41/home-w42-eu/blob/main/docs/architecture.md#4-adapters-and-data-sources)) that polls or subscribes to the router:
 
 - **OpenWrt:** `ubus` (`hostapd.*` `get_clients` for associated stations, the DHCP
   leases), over `ubus` HTTP (rpcd) with a dedicated read-only user.

@@ -19,8 +19,8 @@ Before anything is thrown away, check if it can become part of the home:
 
 ## How it fits
 
-Each one is a light client or an adapter (architecture §3, §4). "Simple switches"
-(principle 18): the same old tablet can be the cockpit in the morning and the
+Each one is a light client or an adapter ([architecture §3, §4](https://github.com/mj41/home-w42-eu/blob/main/docs/architecture.md#3-light-clients)). "Simple switches"
+([principle 18](https://github.com/mj41/home-w42-eu/blob/main/docs/principles.md)): the same old tablet can be the cockpit in the morning and the
 pet's big screen in the afternoon.
 
 ## Security

@@ -11,7 +11,7 @@ heating knows the family is away until Sunday.
 
 ## How it fits
 
-A personal-data adapter (architecture §4):
+A personal-data adapter ([architecture §4](https://github.com/mj41/home-w42-eu/blob/main/docs/architecture.md#4-adapters-and-data-sources)):
 
 - **Sources,** narrowest access first: a calendar's secret ICS address (one calendar,
   read-only), CalDAV (Nextcloud, Radicale, many providers), and only then Google or
@@ -30,7 +30,7 @@ A personal-data adapter (architecture §4):
 
 - Calendar access is a scope per person and per calendar.
 - AI agents see coarse events, not titles, unless the person grants a task more.
-- Reads are audited and shown to the calendar's owner (architecture §8.4).
+- Reads are audited and shown to the calendar's owner ([architecture §8.4](https://github.com/mj41/home-w42-eu/blob/main/docs/architecture.md#84-auditing)).
 
 Later sources with the same pattern: contacts (for recognising visitors), a shared
 shopping list, school announcements.

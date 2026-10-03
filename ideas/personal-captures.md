@@ -4,8 +4,8 @@
 
 ## Who needs it and why
 
-An adult who saves things "for later" in many apps and forgets them: use case 13,
-"Follow up on what I saved" (`home-w42-eu`, `docs/use-cases.md`). The value is not
+An adult who saves things "for later" in many apps and forgets them: [use case 13](https://github.com/mj41/home-w42-eu/blob/main/docs/use-cases.md#13-follow-up-on-what-i-saved),
+"Follow up on what I saved" (home-w42-eu [use cases](https://github.com/mj41/home-w42-eu/blob/main/docs/use-cases.md)). The value is not
 the data; it is the moment on Sunday evening when the home says "4 articles to read,
 2 replies you promised, 1 task due Tuesday".
 
@@ -17,7 +17,7 @@ items to the home node, where loops make digests and reminders.
 
 ## How it fits
 
-`home-w42-eu` architecture §4.1: a **capture station** (a separate OS user or a VM on
+home-w42-eu [architecture §4.1](https://github.com/mj41/home-w42-eu/blob/main/docs/architecture.md#41-personal-captures-from-third-party-accounts): a **capture station** (a separate OS user or a VM on
 the laptop, one browser profile per service, an outbound allowlist), **tiny reviewed
 collectors** (small Go programs, pinned by hash), and only `captured {source, kind,
 title, url, saved_at, tags}` items going to the node (`class: collector`).

@@ -11,7 +11,7 @@ between.
 
 ## How it fits
 
-The phone is a person's proxy device (architecture §8.2), registered as a light
+The phone is a person's proxy device ([architecture §8.2](https://github.com/mj41/home-w42-eu/blob/main/docs/architecture.md#82-the-access-model-restricted-by-default)), registered as a light
 client with one capability: location (and battery, so "low battery" is a loop's
 input, not a mystery).
 
@@ -32,9 +32,9 @@ input, not a mystery).
 - **History off by default.** With history on, the normal 7-day retention applies.
 - **The app's audit page:** every fix sent (time, precision), and every read of it
   on the node (who, which app or loop, how much), from the node's read audit
-  (architecture §8.4).
+  ([architecture §8.4](https://github.com/mj41/home-w42-eu/blob/main/docs/architecture.md#84-auditing)).
 - **Read limits:** a loop may ask "is she home?", not download a week of tracks
-  (architecture §8.3).
+  ([architecture §8.3](https://github.com/mj41/home-w42-eu/blob/main/docs/architecture.md#83-limits-on-reading-rate-limits-and-export-budgets)).
 - A visible notification while it reports, as Android requires anyway.
 
 ## First step

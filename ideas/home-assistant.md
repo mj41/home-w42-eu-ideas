@@ -11,7 +11,7 @@ becomes data and commands for the home node, through one adapter.
 
 ## How it fits
 
-An adapter (architecture §4) using Home Assistant's **WebSocket API**:
+An adapter ([architecture §4](https://github.com/mj41/home-w42-eu/blob/main/docs/architecture.md#4-adapters-and-data-sources)) using Home Assistant's **WebSocket API**:
 
 - authenticate with a long-lived access token (kept on the node, never in a repo);
 - `subscribe_events` for `state_changed`: each chosen entity becomes measurements

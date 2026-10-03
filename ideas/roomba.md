@@ -10,7 +10,7 @@ camera and face. The TPBot car proved the pattern on a small scale.
 
 ## How it fits
 
-An adapter (architecture §4) that offers the same kind of capabilities as the car:
+An adapter ([architecture §4](https://github.com/mj41/home-w42-eu/blob/main/docs/architecture.md#4-adapters-and-data-sources)) that offers the same kind of capabilities as the car:
 `drive` (velocity and radius), `stop`, `clean`, `dock`, and raw telemetry (bumpers,
 cliff sensors, wheel drops, encoders, battery, charging state).
 

@@ -1,9 +1,11 @@
 # home-w42-eu-ideas
 
-Ideas for devices, adapters, apps and loops for **home-w42-eu** (the vision,
-principles and architecture live in the `home-w42-eu` repo).
+Ideas for devices, adapters, apps and loops for
+**[home-w42-eu](https://github.com/mj41/home-w42-eu)**, a local first, privacy first
+platform for a home (its vision, use cases, principles and architecture live there; so
+does the list of [its repos](https://github.com/mj41/home-w42-eu#the-repos-today)).
 One file per idea. **Every idea starts from the people it is for**: which use case it
-serves (`home-w42-eu`, `docs/use-cases.md`), or which new use case it adds. An idea
+serves (home-w42-eu [use cases](https://github.com/mj41/home-w42-eu/blob/main/docs/use-cases.md)), or which new use case it adds. An idea
 moves into the architecture only when it changes the design.
 
 | Idea | Kind | Status |
@@ -35,13 +37,13 @@ Copy this outline into `ideas/<short-name>.md`:
 
 ## Who needs it and why
 The person, the moment in their day, and the use case it serves
-(`home-w42-eu`, `docs/use-cases.md`). Start here, not from a device or a protocol.
+(home-w42-eu [use cases](https://github.com/mj41/home-w42-eu/blob/main/docs/use-cases.md)). Start here, not from a device or a protocol.
 
 ## Idea
 What it is.
 
 ## How it fits
-Light client, adapter, app or loop (architecture §3–§7); its capabilities; prior art.
+Light client, adapter, app or loop ([architecture §3–§7](https://github.com/mj41/home-w42-eu/blob/main/docs/architecture.md#3-light-clients)); its capabilities; prior art.
 
 ## Privacy and security
 Which scopes, what is kept and for how long, what could go wrong.
@@ -52,7 +54,7 @@ The smallest thing that proves it on real hardware.
 ## Open questions
 ```
 
-Every idea follows the principles (`home-w42-eu`, `docs/principles.md`): raw data from
+Every idea follows the principles (home-w42-eu [principles](https://github.com/mj41/home-w42-eu/blob/main/docs/principles.md)): raw data from
 devices, restricted by default, short retention, no vendor cloud in the data path.
 
 ## License

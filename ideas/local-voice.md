@@ -22,7 +22,7 @@ recognition and synthesis on the home node.
 
 - The microphone streams only while listening, with the LIVE badge on.
 - Transcripts follow the normal retention; audio is not stored.
-- Hosted models only if the owner allows them for voice (architecture §8.5).
+- Hosted models only if the owner allows them for voice ([architecture §8.5](https://github.com/mj41/home-w42-eu/blob/main/docs/architecture.md#85-ai-models-and-sensitive-data)).
 
 ## First step
 
