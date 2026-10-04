@@ -6,7 +6,7 @@ events, run in shadow, then live after an owner's approval.
 
 | Loop | Reads | Does | Notes |
 |---|---|---|---|
-| **Safety stop** | car sonar | turns forward drive into stop | exists, in [sbot](https://github.com/mj41/sbot) |
+| **Safety stop** | car sonar | turns forward drive into stop | exists, in [s-w42-eu-sbot](https://github.com/mj41/s-w42-eu-sbot) |
 | Robot frowns while the car is blocked | sbot `safety_stop` decisions | Stackchan `emotion sad`, back to neutral when clear | first loop between two devices |
 | Window shutters | HA temperatures, sun, weather, wind; presence | shutter positions over the day | a controller; replaces an HA automation ([window-shutters](window-shutters.md)) |
 | Look at the door | door contact (Home Assistant) | Stackchan turns its head to the door, shows the door camera | |

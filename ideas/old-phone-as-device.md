@@ -23,7 +23,7 @@ Three ways to build it, cheapest first:
    `getUserMedia`, motion and light through browser sensor APIs, GPS through
    geolocation. No install. Needs HTTPS on the LAN (browsers give camera and GPS
    only to secure pages), which the node needs anyway (its own certificate, or the
-   self-signed one [stackchan-server](https://github.com/mj41/stackchan-server) already makes).
+   self-signed one [s-w42-eu-raw](https://github.com/mj41/s-w42-eu-raw) already makes).
 2. **Termux plus a Go binary** on old Android: the same light-client code as the
    adapters, with `termux-api` for camera, sensors, GPS and notifications. Runs in
    the background better than a browser tab.
@@ -42,7 +42,7 @@ On Linux phones (postmarketOS, Mobian) the Go light client runs directly.
 ## First step
 
 The PWA: a page at `https://<node>/device` that registers the browser as a device
-with camera, GPS and screen, and shows up in the [sbot](https://github.com/mj41/sbot) cockpit next to Stackchan.
+with camera, GPS and screen, and shows up in the [s-w42-eu-sbot](https://github.com/mj41/s-w42-eu-sbot) cockpit next to Stackchan.
 
 ## Open questions
 

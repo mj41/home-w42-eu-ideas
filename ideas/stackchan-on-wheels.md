@@ -2,7 +2,7 @@
 
 **Status:** POC works, 2026-10-01/02. Repos: [tpbot-ble](https://github.com/mj41/tpbot-ble),
 [StackChan fork](https://github.com/mj41/StackChan/tree/embody-mj41) (`car_ble`),
-[sbot](https://github.com/mj41/sbot).
+[s-w42-eu-sbot](https://github.com/mj41/s-w42-eu-sbot).
 
 ## What works
 
