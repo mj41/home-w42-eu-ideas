@@ -29,7 +29,7 @@ moves into the architecture only when it changes the design.
 | [Personal captures: what I saved, from many apps](ideas/personal-captures.md) | collectors, personal data | idea |
 | [Local voice](ideas/local-voice.md) | interface | idea |
 | [Repurposing old hardware](ideas/repurpose-old-hardware.md) | overview | idea |
-| [Example loops](ideas/loop-examples.md) | loops | one exists (safety stop) |
+| [Example loops](ideas/loop-examples.md) | loops | two run: the safety stop (controller) and `frown` (loop) |
 
 ## Adding an idea
 
